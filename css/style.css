@@ -30,9 +30,8 @@
   background-color: #000;
 }
 #onpage{
-  color: #000;
+  color: #fff;
   text-decoration: underline overline;
-  background-color: #fff;
 }
 #sidebar{
   position: fixed;
@@ -41,15 +40,18 @@
   height: 100%;
   width: 20%;
 }
+#sidebar-container{
+  text-align: center;
+  display: block;
+}
 #sidebar-container ul{
   list-style-type: none;
-  text-align: center;
   padding: 0;
 }
-#sidebar-container ul li a{
+#sidebar-container ul li{
   padding: 15px 0;
-  color: #fff;
-  background-color: 000;
+}
+#sidebar-container ul li a{
   text-decoration: none;
-  display: block;
+  color: #fff;
 }
