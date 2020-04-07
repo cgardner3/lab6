@@ -14,7 +14,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  left: 50%;
+  right: 50%;
   float: left;
   position: relative;
   display: block;
@@ -27,7 +27,7 @@
 #navbar-container ul li a {
   color: #fff;
   text-decoration: none;
-  background-color: #000;
+  
 }
 #onpage{
   color: #fff;
