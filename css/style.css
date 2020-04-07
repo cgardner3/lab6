@@ -6,7 +6,7 @@
 }
 #navbar-container{
   float: left;
-  left: 40%;
+  left: 50%;
   position: relative;
   display: block;
 }
@@ -16,26 +16,22 @@
   padding: 0;
   left: 50%;
   float: left;
+  position: relative;
+  display: block;
 }
-
 #navbar-container ul li {
   float: left;
-  position: relative;
-  right: 50%;
-  display: block;
+  padding: 10px 20px;
 }
 
 #navbar-container ul li a {
-  display: block;
-  padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   background-color: #000;
-  text-decoration: underline overline;
 }
-
-#navbar-container #onpage a {
+#onpage{
   color: #000;
+  text-decoration: underline overline;
   background-color: #fff;
 }
 #sidebar{
@@ -51,9 +47,9 @@
   padding: 0;
 }
 #sidebar-container ul li a{
-	padding: 15px 0;
-	color: #fff;
-	background-color: 000;
-	text-decoration: none;
-	display: block;
+  padding: 15px 0;
+  color: #fff;
+  background-color: 000;
+  text-decoration: none;
+  display: block;
 }
